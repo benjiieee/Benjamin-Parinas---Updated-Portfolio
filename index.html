@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Parinas Portfolio</title>
+        <!-- custom css link -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <!-- goggle fonts link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- navigation section -->
+        <header>
+            <a href="#home" class="logo">Home</a>
+            
+            <ul class="navlist">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-toggle" title="Toggle Theme">
+                    <i class='bx bx-sun' id="theme-icon"></i>
+                </button></li>
+            </ul>
+        </header>
+       
+        <!-- home section -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <div class="slide">
+                    <span class="one">Hello</span>
+                    <span class="two">I'm</span>
+                </div>
+                <h1>Benjamin</h1>
+                <h3><span>Data</span> Scientist</h3>
+                <p>Working in the Tech-Indutry for 5+ years yet still driven <br>
+                    to meet and exceed performance expectations</p>
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="Images/img002.jpg">
+            </div>
+            <div class="about-text">
+                <div class="about-header">
+                    <h2>About</h2>
+                    <button id="edit-about" class="edit-btn" title="Edit About Section">
+                        <i class='bx bx-edit-alt'></i>
+                    </button>
+                </div>
+                <h4 id="about-title" contenteditable="false">Junior Data Analyst</h4>
+                <p id="about-description" contenteditable="false">BS in Computer Science Graduate at Caraga State University. My job consists in helping companies and researchers to analyse and visualize their datasets. I am skilled for most data-science steps: data pre-processing, application of statistical methods, data visualization and results communication. I also worked as a Junior Analyst at Aboitiz Power Inc, Philippines.
+                </p>
+                <div class="edit-controls" id="edit-controls" style="display: none;">
+                    <button id="save-about" class="btn">Save</button>
+                    <button id="cancel-edit" class="btn-cancel">Cancel</button>
+                </div>
+                <a href="#" class="btn">More About</a>
+            </div>
+        </section>
+
+        <!-- skills section -->
+        <section class="skills" id="skills">
+            <div class="main-text">
+                <h2><span>My </span>Skills</h2>
+            </div>
+
+            <div class="skills-content">
+                <div class="box">
+                    <h3>&#10066; Marketing Analytics</h3>
+                    <p>I assist in approaching sales and marketing optimisation more strategically to create top-line & bottom-line growth in business. My expertise in Data Analytics can quickly and efficiently improve sales, marketing, and customer services.</p>
+                    <a href="#" class="read">Read More</a>
+                </div>
+
+                <div class="box">
+                    <h3>&#10066; Financial Risk Management</h3>
+                    <p>Skilled in using the appropriate technique with the appropriate strategy by integrating external and internal aspects with a 360-degree connected data framework. I comprehend, quantify, and forecast risk and uncertainty.</p>
+                    <a href="#" class="read">Read More</a>
+                </div>
+
+                <div class="box">
+                    <h3>&#10066; Operational Analytics</h3>
+                    <p>My services allow you to manage dynamic change and gain visibility across your supply chain to help you turn business disruptions into opportunities for growth and profit. My skill helps you achieve better decision-making in your organisation. </p>
+                    <a href="#" class="read">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects section -->
+        <section class="projects" id="projects">
+            <div class="main-text">
+                <h2><span>Latest </span>Projects</h2>
+            </div>
+ 
+            <div class="projects-content">
+                <div class="row">
+                    <img src="Images/project001.jpeg">
+                    <div class="layer">
+                        <h5>Data to Viz</h5>
+                        <p>A classificaion of graph types based on input data format.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="Images/project002.jpeg">
+                    <div class="layer">
+                        <h5>The Como Project</h5>
+                        <p>Data Chart describing a study of interconnection between mental disorders.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="Images/project003.jpeg">
+                    <div class="layer">
+                        <h5>Geographical Dashboard</h5>
+                        <p>A dashboard allowing to quickly access information in a certain region.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="Images/project004.jpeg">
+                    <div class="layer">
+                        <h5>Cypto Arbitrage</h5>
+                        <p>A data driven study of crypto arbitrage feasibility.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="Images/project005.jpeg">
+                    <div class="layer">
+                        <h5>Unics</h5>
+                        <p>Data sets that estimate standard error of allele freuency in pool-sequencing experiments.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="Images/project006.jpeg">
+                    <div class="layer">
+                        <h5>Co-authorship Network</h5>
+                        <p>Visualize how all the co-authors of my previous supervisor are interconnected.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact</h2>
+                <h4>If you have any inquiries in your mind.</h4>
+                <p>I'm a data scientist/data analyst and data visualisation specialist .</p>
+                <div class="list">
+                    <li><a href="#">+639101370199</a></li>
+                    <li><a href="#">parinasbenjamin@gmail.com</a></li>
+                    <li><a href="#">Share</a></li>
+                </div>
+
+                <div class="contact-icons">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="">
+                    <input type="name" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <input type="" placeholder="Your Mobile Number" required>
+                    <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You?" required></textarea>
+                    <input type="submit" value="Send Message" class="submit" required>
+                </form>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <section class="footer">
+            <div class="last-text">
+                <p>Benjamin A. Parinas l <span>ITE 18 - GLM1</span></p>
+            </div>
+            <div class="top">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </section>
+        
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</HTML>
